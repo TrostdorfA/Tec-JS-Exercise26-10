@@ -258,7 +258,7 @@ function showData(i) {
       Su direccion es: ${userData[i].address.street}, ${userData[i].address.suite}, ${userData[i].address.city}, ${userData[i].address.zipcode}`);
 }
 
-switch (prompt("Ingrese el ID del usuario que desea ver: ")) {
+switch (prompt("Ingrese el ID del usuario que desea ver entre 1 y 10: ")) {
   case "1":
     showData(0);
     break;
